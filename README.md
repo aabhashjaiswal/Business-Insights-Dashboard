@@ -28,7 +28,7 @@ project-root/
 
 ## 4. How to Reproduce
 a. Clone this repository:
-   ```bash
+   bash
    git clone <your-repo-link>
    cd <your-repo-folder>
 
