@@ -5,17 +5,18 @@ This project focuses on data collection, cleaning, preprocessing, and performing
 **Goal:** <State your main objective, e.g., "Analyze customer churn data to identify key factors affecting retention.">
 
 ## 2. Repository Structure
+```plaintext
 project-root/
 ├─ data/
-│ ├─ raw/ # Original datasets (not pushed to GitHub)
-│ └─ processed/ # Cleaned & transformed datasets
+│  ├─ raw/             # Original datasets (not pushed to GitHub)
+│  └─ processed/       # Cleaned & transformed datasets
 ├─ notebooks/
-│ ├─ 01_data_audit_eda.ipynb # Data audit & EDA notebook
-│ └─ 02_feature_engineering.ipynb (if applicable)
+│  ├─ 01_data_audit_eda.ipynb    # Data audit & EDA notebook
+│  └─ 02_feature_engineering.ipynb (if applicable)
 ├─ reports/
-│ └─ figures/ # Generated charts & visualizations
-├─ presentation/ # Final presentation (PDF/PPT)
-├─ src/ # Scripts for preprocessing & transformations
+│  └─ figures/         # Generated charts & visualizations
+├─ presentation/       # Final presentation (PDF/PPT)
+├─ src/                # Scripts for preprocessing & transformations
 ├─ requirements.txt
 └─ README.md
 
@@ -28,7 +29,7 @@ project-root/
 
 ## 4. How to Reproduce
 a. Clone this repository:
-   bash
+   ''' bash
    git clone <your-repo-link>
    cd <your-repo-folder>
 
@@ -36,8 +37,6 @@ b. Set up a virtual environment:
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
 
 c. Install dependencies:
 pip install -r requirements.txt
