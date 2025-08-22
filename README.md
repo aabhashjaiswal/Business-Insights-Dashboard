@@ -19,7 +19,7 @@ project-root/
 ├─ src/                # Scripts for preprocessing & transformations
 ├─ requirements.txt
 └─ README.md
-'''
+```
 
 ## 3. Data Sources
 - Dataset: `<Name & description of dataset>`
@@ -29,10 +29,10 @@ project-root/
 
 ## 4. How to Reproduce
 a. Clone this repository:
-   ''' bash
+   ``` bash
    git clone <your-repo-link>
    cd <your-repo-folder>
-   '''
+   ```
 
 b. Set up a virtual environment:
 python -m venv .venv
