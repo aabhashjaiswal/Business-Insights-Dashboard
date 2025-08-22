@@ -35,12 +35,15 @@ a. Clone this repository:
    ```
 
 b. Set up a virtual environment:
+
 python -m venv .venv
 
 c. Install dependencies:
+
 pip install -r requirements.txt
 
 d. Run the notebook:
+
 jupyter lab
 Open notebooks/01_data_audit_eda.ipynb, run all cells, and outputs will be saved to:
 
