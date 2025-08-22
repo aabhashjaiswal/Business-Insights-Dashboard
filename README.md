@@ -66,9 +66,9 @@ d. **Run the notebook:**
 - Exploratory Data Analysis (EDA) & visualization
 
 ## 6. Results (Highlights):
-- Insight 1: <Your key finding>
+- Insight 1: <e.g., "Churn rate is highest among customers with monthly contracts.">
 
-- Insight 2: <Another important observation>
+- Insight 2: <e.g., "Average tenure positively correlates with customer satisfaction score.">
 
 ## 7. Interactive (Optional):
 If applicable, view interactive visualizations: Interactive Dashboard Link
