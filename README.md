@@ -36,8 +36,6 @@ a. Clone this repository:
 
 b. Set up a virtual environment:
 python -m venv .venv
-#Windows
-.venv\Scripts\activate
 
 c. Install dependencies:
 pip install -r requirements.txt
