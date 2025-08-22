@@ -53,42 +53,46 @@ d. **Run the notebook:**
    ``` bash
    jupyter lab
    ```
+Open **`notebooks/01_data_audit_eda.ipynb`**, run all cells, and outputs will be saved to:
+- `reports/figures/`
+- `data/processed/`
 
-## 5. Key Steps:
-- Data collection & integrity checks
+## 5. Key Steps
+- Data collection and integrity checks  
+- Cleaning: handling missing values, duplicates, and outliers  
+- Transformations: encoding, scaling, normalization (if required)  
+- Feature selection and engineering  
+- Exploratory Data Analysis (EDA)  
 
-- Cleaning: missing values, duplicates, and outliers
+## 6. Results (Highlights)
+- **Insight 1:** `<Your key finding>`
+- **Insight 2:** `<Another important observation>`
 
-- Data transformations (encoding, scaling, normalization if needed)
+Example Visualizations:  
+![Correlation Heatmap](reports/figures/corr_heatmap.png)  
+![Key Trend](reports/figures/scatter_key.png)
 
-- Feature selection & creation
+## 7. Interactive (Optional)
+If applicable, view interactive visualizations: [Interactive Dashboard Link](<insert-link-here>)
 
-- Exploratory Data Analysis (EDA) & visualization
+## 8. Limitations & Next Steps
+- Limitations: `<e.g., missing data, sample size>`
+- Next Steps: `<e.g., predictive modeling, more data sources>`
 
-## 6. Results (Highlights):
-- Insight 1: <e.g., "Churn rate is highest among customers with monthly contracts.">
+## 9. Team
+- **Name 1** – Data Preprocessing  
+- **Name 2** – Visualization & EDA  
+- **Name 3** – Documentation & Presentation  
 
-- Insight 2: <e.g., "Average tenure positively correlates with customer satisfaction score.">
-Example- Visualizations
+## 10. License
+This project is licensed under `<Your License>`.
 
-## 7. Interactive (Optional):
-If applicable, view interactive visualizations: Interactive Dashboard Link
+---
 
-## 8. Limitations & Next Steps:
-- Limitations: <e.g., small dataset size, missing demographics>
-
-- Future Work: <e.g., predictive modeling, additional feature engineering>
-
-## 9. Team:
-Name 1 – Data Collection & Preprocessing
-
-Name 2 – EDA & Visualizations
-
-Name 3 – Documentation & Presentation
-
-## 10. License:
-This project is licensed under the <Your License>.
-
-
-
-
+### Requirements
+pandas
+numpy
+matplotlib
+scikit-learn
+pyarrow
+jupyter
