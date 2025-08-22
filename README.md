@@ -22,3 +22,49 @@ python -m venv .venv
 pip install -r requirements.txt
 jupyter lab
 
+Open notebooks/01_data_audit_eda.ipynb, run all. Outputs saved to reports/figures/ and data/processed/.
+
+5. Key Steps
+
+Cleaning (missing/duplicates/outliers), transformations, feature creation, EDA.
+
+6. Results (Highlights)
+
+Bullet 1
+
+Bullet 2
+(Embed 1–2 key figures from reports/figures/.)
+
+7. Interactive (Optional)
+
+Link to hosted notebook or HTML (Plotly/Altair).
+
+8. Limitations & Next Steps
+
+Constraints, assumptions, future work.
+
+9. Team
+
+Names, roles.
+
+**requirements.txt (suggested)**
+pandas
+numpy
+matplotlib
+scikit-learn
+pyarrow
+jupyter
+
+
+---
+
+## Final submission checklist
+
+- [ ] Repo public & clean clone works.
+- [ ] `README.md` complete; `requirements.txt` installs.
+- [ ] Presentation exported to **PDF** in `/presentation/`.
+- [ ] GitHub link + PDF uploaded to the submission form.
+- [ ] Team reviewed rubric mapping above.
+
+If you want, tell me your dataset/topic and I’ll tailor the feature engineering ideas + the exact charts to use (and can draft the slide captions to match your narrative).
+
