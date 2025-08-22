@@ -69,6 +69,7 @@ d. **Run the notebook:**
 - Insight 1: <e.g., "Churn rate is highest among customers with monthly contracts.">
 
 - Insight 2: <e.g., "Average tenure positively correlates with customer satisfaction score.">
+Example- Visualizations
 
 ## 7. Interactive (Optional):
 If applicable, view interactive visualizations: Interactive Dashboard Link
