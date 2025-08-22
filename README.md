@@ -28,25 +28,50 @@ project-root/
 - Date accessed: `<Date>`
 
 ## 4. How to Reproduce
-a. Clone this repository:
+a. **Clone this repository:**
    ``` bash
    git clone <your-repo-link>
    cd <your-repo-folder>
    ```
 
-b. Set up a virtual environment:
+b. **Set up a virtual environment:**
 
 python -m venv .venv
 
-c. Install dependencies:
+c. **Install dependencies:**
 
 pip install -r requirements.txt
 
-d. Run the notebook:
+d. **Run the notebook:**
 
 jupyter lab
-Open notebooks/01_data_audit_eda.ipynb, run all cells, and outputs will be saved to:
 
-reports/figures/
 
-data/processed/
+## 5. Key Steps:
+- Data collection & integrity checks
+
+- Cleaning: missing values, duplicates, and outliers
+
+- Data transformations (encoding, scaling, normalization if needed)
+
+- Feature selection & creation
+
+- Exploratory Data Analysis (EDA) & visualization
+
+## 6. Results (Highlights):
+- Insight 1: <Your key finding>
+
+- Insight 2: <Another important observation>
+
+## 7. Interactive (Optional):
+If applicable, view interactive visualizations: Interactive Dashboard Link
+
+
+
+
+
+
+
+
+
+
