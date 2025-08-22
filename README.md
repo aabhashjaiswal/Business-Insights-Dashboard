@@ -24,11 +24,11 @@ jupyter lab
 
 Open notebooks/01_data_audit_eda.ipynb, run all. Outputs saved to reports/figures/ and data/processed/.
 
-5. Key Steps
+## 5. Key Steps
 
 Cleaning (missing/duplicates/outliers), transformations, feature creation, EDA.
 
-6. Results (Highlights)
+## 6. Results (Highlights)
 
 Bullet 1
 
@@ -43,7 +43,7 @@ Link to hosted notebook or HTML (Plotly/Altair).
 
 Constraints, assumptions, future work.
 
-9. Team
+## 9. Team
 
 Names, roles.
 
