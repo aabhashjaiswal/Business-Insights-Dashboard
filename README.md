@@ -37,6 +37,11 @@ a. **Clone this repository:**
 b. **Set up a virtual environment:**
    ``` bash
    python -m venv .venv
+   # Windows
+   .venv\Scripts\activate
+   # macOS/Linux
+   source .venv/bin/activate
+
    ```
 
 c. **Install dependencies:**
@@ -68,11 +73,20 @@ d. **Run the notebook:**
 ## 7. Interactive (Optional):
 If applicable, view interactive visualizations: Interactive Dashboard Link
 
+## 8. Limitations & Next Steps:
+- Limitations: <e.g., small dataset size, missing demographics>
 
+- Future Work: <e.g., predictive modeling, additional feature engineering>
 
+## 9. Team:
+Name 1 – Data Collection & Preprocessing
 
+Name 2 – EDA & Visualizations
 
+Name 3 – Documentation & Presentation
 
+## 10. License:
+This project is licensed under the <Your License>.
 
 
 
