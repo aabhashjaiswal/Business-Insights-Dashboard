@@ -35,17 +35,19 @@ a. **Clone this repository:**
    ```
 
 b. **Set up a virtual environment:**
-
-python -m venv .venv
+   ``` bash
+   python -m venv .venv
+   ```
 
 c. **Install dependencies:**
-
-pip install -r requirements.txt
+   ``` bash
+   pip install -r requirements.txt
+   ```
 
 d. **Run the notebook:**
-
-jupyter lab
-
+   ``` bash
+   jupyter lab
+   ```
 
 ## 5. Key Steps:
 - Data collection & integrity checks
