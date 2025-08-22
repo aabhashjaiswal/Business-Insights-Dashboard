@@ -1,70 +1,51 @@
-# Business-Insights-Dashboard
-An interactive dashboard to visualize key business metrics, track performance, and enable data-driven decision-making.
-
-# Project Title – Data Preprocessing & EDA
+# Data Preprocessing & Exploratory Data Analysis (EDA) Project
 
 ## 1. Objective
-Briefly state the problem, goals, target variable, time range, and unit of analysis.
+This project focuses on data collection, cleaning, preprocessing, and performing Exploratory Data Analysis (EDA) to generate descriptive insights and meaningful visualizations.  
+**Goal:** <State your main objective, e.g., "Analyze customer churn data to identify key factors affecting retention.">
 
 ## 2. Repository Structure
-(Explain folders; note that `data/raw/` is gitignored.)
+project-root/
+├─ data/
+│ ├─ raw/ # Original datasets (not pushed to GitHub)
+│ └─ processed/ # Cleaned & transformed datasets
+├─ notebooks/
+│ ├─ 01_data_audit_eda.ipynb # Data audit & EDA notebook
+│ └─ 02_feature_engineering.ipynb (if applicable)
+├─ reports/
+│ └─ figures/ # Generated charts & visualizations
+├─ presentation/ # Final presentation (PDF/PPT)
+├─ src/ # Scripts for preprocessing & transformations
+├─ requirements.txt
+└─ README.md
 
-## 3. Data Sources & Dictionary
-- Source 1: link, license, date accessed
-- Source 2: …
-Include `data/processed/data_dictionary.csv`.
+
+## 3. Data Sources
+- Dataset: `<Name & description of dataset>`
+- Source: `<URL or reference>`
+- License: `<Data license if applicable>`
+- Date accessed: `<Date>`
 
 ## 4. How to Reproduce
-```bash
+a. Clone this repository:
+   ```bash
+   git clone <your-repo-link>
+   cd <your-repo-folder>
+
+b. Set up a virtual environment:
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+c. Install dependencies:
 pip install -r requirements.txt
+
+d. Run the notebook:
 jupyter lab
+Open notebooks/01_data_audit_eda.ipynb, run all cells, and outputs will be saved to:
 
-Open notebooks/01_data_audit_eda.ipynb, run all. Outputs saved to reports/figures/ and data/processed/.
+reports/figures/
 
-## 5. Key Steps
-
-Cleaning (missing/duplicates/outliers), transformations, feature creation, EDA.
-
-## 6. Results (Highlights)
-
-Bullet 1
-
-Bullet 2
-(Embed 1–2 key figures from reports/figures/.)
-
-7. Interactive (Optional)
-
-Link to hosted notebook or HTML (Plotly/Altair).
-
-8. Limitations & Next Steps
-
-Constraints, assumptions, future work.
-
-## 9. Team
-
-Names, roles.
-
-**requirements.txt (suggested)**
-pandas
-numpy
-matplotlib
-scikit-learn
-pyarrow
-jupyter
-
-
----
-
-## Final submission checklist
-
-- [ ] Repo public & clean clone works.
-- [ ] `README.md` complete; `requirements.txt` installs.
-- [ ] Presentation exported to **PDF** in `/presentation/`.
-- [ ] GitHub link + PDF uploaded to the submission form.
-- [ ] Team reviewed rubric mapping above.
-
-If you want, tell me your dataset/topic and I’ll tailor the feature engineering ideas + the exact charts to use (and can draft the slide captions to match your narrative).
-
+data/processed/
