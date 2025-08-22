@@ -90,9 +90,9 @@ This project is licensed under `<Your License>`.
 ---
 
 ### Requirements
-pandas
-numpy
-matplotlib
-scikit-learn
-pyarrow
-jupyter
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- pyarrow
+- jupyter
